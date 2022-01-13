@@ -8,21 +8,13 @@ const config: PlaywrightTestConfig = {
     baseURL: 'https://dev95993.service-now.com/api/now/table/incident',
     extraHTTPHeaders: {
       // Basic - like the basic auth option in Postman. Code was generated on Base64
-      'Authorization': 'Basic '
+      'Authorization': 'Basic YWRtaW46a1hlRERQdXg3UDFi'
     }
   },
   projects: [
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] }
-    },
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] }
-    },
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] }
     }
   ]
 };
