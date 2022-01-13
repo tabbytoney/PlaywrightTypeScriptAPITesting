@@ -1,0 +1,29 @@
+{
+  "name": "PlaywrightTypeScriptAPITesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tabbytoney/PlaywrightTypeScriptAPITesting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tabbytoney/PlaywrightTypeScriptAPITesting/issues"
+  },
+  "homepage": "https://github.com/tabbytoney/PlaywrightTypeScriptAPITesting#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.17.2",
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7",
+    "jest-playwright-preset": "^1.7.0",
+    "playwright": "^1.17.2",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  }
+}
